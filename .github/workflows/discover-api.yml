@@ -3,7 +3,7 @@ name: <Sync Discovered API with API Connect>
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: https://9.46.232.246
+  API_HOST: fyre-ci-e2e-181747-master.fyre.ibm.com
   PROVIDER_ORG: groot
   #API_FILES: gmail-api.json
   API_FOLDERS: APIfolder
